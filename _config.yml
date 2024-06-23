@@ -1,3 +1,12 @@
 title: ChipVerifyPro
 description: AI-driven online learning platform for chip verification
 theme: jekyll-theme-cayman
+
+# Navigation
+header_pages:
+  - index.md
+  - courses.md
+  - about.md
+
+# Show excerpts on the home page
+show_excerpts: true
