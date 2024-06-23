@@ -2,6 +2,8 @@
 layout: page
 title: About Us
 permalink: /about/
+description: "Learn about ChipVerifyPro, our mission, and our team dedicated to revolutionizing chip verification education."
+keywords: "chip verification, AI education, online learning, semiconductor design"
 ---
 
 # About ChipVerifyPro
