@@ -10,3 +10,6 @@ header_pages:
 
 # Show excerpts on the home page
 show_excerpts: true
+
+# Google Analytics
+google_analytics: G-3YBX1CYZNP
