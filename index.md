@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Welcome to ChipVerifyPro
 ---
 
 # Welcome to ChipVerifyPro
