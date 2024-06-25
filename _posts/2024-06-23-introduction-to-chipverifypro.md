@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Welcome to ChipVerifyPro: Revolutionizing Chip Verification Education"
 date: 2024-06-23
 categories: announcements
