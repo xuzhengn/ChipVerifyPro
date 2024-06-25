@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-nav {
+  padding: 10px 0;
+  text-align: center;
+  a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
