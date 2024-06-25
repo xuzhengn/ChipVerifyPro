@@ -7,7 +7,9 @@ header_pages:
   - index.md
   - courses.md
   - about.md
-
+  - contact.md
+  - privacy-policy.md
+  
 # Show excerpts on the home page
 show_excerpts: true
 
