@@ -13,3 +13,6 @@ show_excerpts: true
 
 # Google Analytics
 google_analytics: G-3YBX1CYZNP
+
+plugins:
+  - jekyll-titles-from-headings
