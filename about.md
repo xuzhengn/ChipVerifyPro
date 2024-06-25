@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About Us
 permalink: /about/
 description: "Learn about ChipVerifyPro, our mission, and our team dedicated to revolutionizing chip verification education."
