@@ -6,6 +6,7 @@ theme: jekyll-theme-cayman
 header_pages:
   - index.md
   - courses.md
+  - blog.md
   - about.md
   - contact.md
   - privacy-policy.md
