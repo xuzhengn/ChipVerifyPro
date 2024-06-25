@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Welcome to ChipVerifyPro
 
 Explore the future of chip verification with our AI-driven online learning platform. We offer professional knowledge and practical skills for chip designers and verification engineers.
