@@ -6,8 +6,8 @@ permalink: /courses/
 
 # Our Courses
 
-## Introduction to Chip Verification
-Coming soon! This course will cover the basics of chip verification, including:
+## [Introduction to Chip Verification](/courses/intro-to-chip-verification/)
+This course will cover the basics of chip verification, including:
 - Fundamentals of digital design
 - Verification methodologies
 - Introduction to hardware description languages
