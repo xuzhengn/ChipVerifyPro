@@ -2,6 +2,8 @@ title: ChipVerifyPro
 description: AI-driven online learning platform for chip verification
 theme: jekyll-theme-cayman
 permalink: /blog/:year/:month/:day/:title/
+url: "https://xuzhengn.github.io"
+baseurl: "/ChipVerifyPro"
 
 # Navigation
 header_pages:
