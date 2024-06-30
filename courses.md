@@ -20,7 +20,7 @@ Dive deep into advanced topics such as:
 - Coverage-driven verification
 - Assertion-based verification
 
-## AI in Chip Design and Verification
+## [AI in Chip Design and Verification](ai-in-chip-design-and-verification/)
 Explore the cutting-edge intersection of AI and chip verification:
 - Machine learning for test generation
 - AI-assisted debug techniques
