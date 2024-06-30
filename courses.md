@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Our Courses
+description: "ChipVerifyPro offers comprehensive courses in chip verification, helping you master the skills needed in the semiconductor industry."
+keywords: "chip verification, semiconductor, courses, digital design, VLSI"
 permalink: /courses/
 ---
 
