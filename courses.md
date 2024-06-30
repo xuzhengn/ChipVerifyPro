@@ -14,7 +14,7 @@ This course will cover the basics of chip verification, including:
 - Verification methodologies
 - Introduction to hardware description languages
 
-## Advanced Verification Techniques
+## [Advanced Verification Techniques](advanced-verification-techniques/)
 Dive deep into advanced topics such as:
 - Constrained random verification
 - Coverage-driven verification
