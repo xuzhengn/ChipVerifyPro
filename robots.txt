@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xuzhengn.github.io/ChipVerifyPro/sitemap.xml
