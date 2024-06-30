@@ -16,6 +16,7 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="ChipVerifyPro Logo" class="project-logo">
       <nav class="main-nav">
       {% for page in site.header_pages %}
         {% assign item = site.pages | where: "path", page | first %}
