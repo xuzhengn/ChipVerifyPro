@@ -16,3 +16,12 @@ Explore the future of chip verification with our AI-driven online learning platf
 - AI in Chip Design and Verification
 
 Stay tuned for more updates!
+
+## What Our Customers Say
+
+{% for testimonial in site.data.testimonials %}
+<div class="testimonial">
+  <blockquote>"{{ testimonial.quote }}"</blockquote>
+  <p class="author">- {{ testimonial.name }}, {{ testimonial.position }} at {{ testimonial.company }}</p>
+</div>
+{% endfor %}
