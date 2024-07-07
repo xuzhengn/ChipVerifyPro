@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Coverage-Driven Verification"
-date: 2023-07-03
+date: 2024-07-03
 author: ChipVerifyPro Team
 categories: [Verification, Methodology]
 ---
