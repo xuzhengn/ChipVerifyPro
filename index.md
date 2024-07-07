@@ -11,11 +11,14 @@ Explore the future of chip verification with our AI-driven online learning platf
 
 ## Our Courses
 
-- Coming soon: Introduction to Chip Verification
-- Advanced Verification Techniques
-- AI in Chip Design and Verification
+- **Introduction to Chip Verification**: Learn the fundamentals of chip verification and essential techniques.
+- **Advanced Verification Techniques**: Dive deep into complex verification methodologies and tools.
+- **AI in Chip Design and Verification**: Discover how artificial intelligence is revolutionizing the chip industry.
+- **System-on-Chip (SoC) Verification**: Master the challenges of verifying complex SoC designs.
 
-Stay tuned for more updates!
+Each course is designed to provide you with practical skills and knowledge that you can immediately apply in your work.
+
+[Explore Our Courses](/courses)
 
 ## What Our Customers Say
 
@@ -25,3 +28,14 @@ Stay tuned for more updates!
   <p class="author">- {{ testimonial.name }}, {{ testimonial.position }} at {{ testimonial.company }}</p>
 </div>
 {% endfor %}
+
+## Why Choose ChipVerifyPro?
+
+- **Expert Instructors**: Learn from industry professionals with years of experience.
+- **Practical Approach**: Gain hands-on experience with real-world examples and projects.
+- **Flexible Learning**: Access courses anytime, anywhere, at your own pace.
+- **Up-to-Date Content**: Stay current with the latest trends and technologies in chip verification.
+
+Start your journey to becoming a chip verification expert today!
+
+[Get Started](/register)
