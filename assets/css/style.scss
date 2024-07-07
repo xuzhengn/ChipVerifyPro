@@ -117,3 +117,20 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #106060;
 }
+
+.testimonial {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-left: 5px solid #157878;
+  
+  blockquote {
+    font-style: italic;
+    margin: 0 0 10px 0;
+  }
+  
+  .author {
+    text-align: right;
+    font-weight: bold;
+  }
+}
