@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us | ChipVerifyPro
+title: About Us
 description: "Learn about ChipVerifyPro's mission, team, and commitment to excellence in chip verification education."
 keywords: "ChipVerifyPro, chip verification, online learning, semiconductor industry, education"
 permalink: /about/
