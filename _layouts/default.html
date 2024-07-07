@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><nav
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
@@ -11,6 +11,33 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var menuToggle = document.createElement('button');
+    menuToggle.className = 'menu-toggle';
+    menuToggle.innerHTML = '☰';
+    menuToggle.style.display = 'none';
+    
+    var header = document.querySelector('.page-header');
+    header.insertBefore(menuToggle, header.firstChild);
+
+    menuToggle.addEventListener('click', function() {
+      document.querySelector('.main-nav').classList.toggle('active');
+    });
+
+    function checkWindowSize() {
+      if (window.innerWidth <= 768) {
+        menuToggle.style.display = 'block';
+      } else {
+        menuToggle.style.display = 'none';
+        document.querySelector('.main-nav').classList.remove('active');
+      }
+    }
+
+    window.addEventListener('resize', checkWindowSize);
+    checkWindowSize();
+  });
+</script>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -18,12 +45,14 @@
     <header class="page-header" role="banner">
       <img src="{{ site.baseurl }}/assets/images/logo.png" alt="ChipVerifyPro Logo" class="project-logo">
       <nav class="main-nav">
+      <ul>
       {% for page in site.header_pages %}
         {% assign item = site.pages | where: "path", page | first %}
         {% if item.title %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% endif %}
       {% endfor %}
+      </ul>
       </nav>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
