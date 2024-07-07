@@ -52,6 +52,8 @@
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% endif %}
       {% endfor %}
+      <li><a href="{{ '/register/' | relative_url }}">Register</a></li>
+      <li><a href="{{ '/login/' | relative_url }}">Login</a></li>
       </ul>
       </nav>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
