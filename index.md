@@ -18,7 +18,7 @@ Explore the future of chip verification with our AI-driven online learning platf
 
 Each course is designed to provide you with practical skills and knowledge that you can immediately apply in your work.
 
-[Explore Our Courses](/courses)
+[Explore Our Courses](./courses)
 
 ## What Our Customers Say
 
@@ -38,4 +38,4 @@ Each course is designed to provide you with practical skills and knowledge that 
 
 Start your journey to becoming a chip verification expert today!
 
-[Get Started](/register)
+[Get Started](./register)
