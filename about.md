@@ -56,4 +56,4 @@ We are committed to:
 
 Whether you're a student looking to start your career in chip design, or a professional aiming to upgrade your skills, ChipVerifyPro is here to support your learning journey. Together, let's push the boundaries of what's possible in chip design and verification.
 
-[Explore Our Courses](/courses/) | [Contact Us](/contact/)
+[Explore Our Courses]({% raw %}{{ '/courses/' | relative_url }}{% endraw %}) | [Contact Us]({% raw %}{{ '/contact/' | relative_url }}{% endraw %})
