@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+/* 现有样式 */
 .main-nav {
   padding: 10px 0;
   text-align: center;
@@ -15,7 +16,63 @@
     }
   }
 }
+
 .project-logo {
   width: 150px;
   height: auto;
+}
+
+/* 新增响应式设计样式 */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.main-nav li {
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+    width: 100%;
+    
+    &.active {
+      display: block;
+    }
+    
+    ul {
+      flex-direction: column;
+    }
+    
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
