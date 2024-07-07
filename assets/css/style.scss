@@ -3,14 +3,30 @@
 
 @import "{{ site.theme }}";
 
-/* 现有样式 */
 .main-nav {
   padding: 10px 0;
   text-align: center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; // 添加这行来垂直居中所有项目
+  }
+
+  li {
+    margin: 0 10px;
+  }
+
   a {
+    display: inline-block; // 确保所有链接有相同的行为
     color: #fff;
     padding: 10px;
     text-decoration: none;
+    line-height: 1.5; // 添加这行来统一行高
+
     &:hover {
       text-decoration: underline;
     }
@@ -40,18 +56,6 @@ img {
   font-size: 24px;
   cursor: pointer;
   color: #fff;
-}
-
-.main-nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-.main-nav li {
-  margin: 0 10px;
 }
 
 @media (max-width: 768px) {
