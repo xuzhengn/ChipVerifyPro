@@ -22,3 +22,5 @@ google_analytics: G-3YBX1CYZNP
 
 plugins:
   - jekyll-titles-from-headings
+
+markdown: kramdown
