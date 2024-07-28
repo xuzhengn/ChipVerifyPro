@@ -5,7 +5,6 @@ description: "Find answers to common questions about ChipVerifyPro courses and c
 keywords: "FAQ, questions, answers, chip verification, online courses"
 permalink: /faq/
 ---
-<div class="faq-section">
   
 # Frequently Asked Questions
 
@@ -55,5 +54,5 @@ Absolutely! We offer support through discussion forums where you can interact wi
 
 ### Are there opportunities to network with other professionals in the field?
 Yes, our courses include discussion forums and group projects that allow you to connect with other learners and professionals in the chip verification field.
-</div>
+
 If you have any questions that aren't answered here, please don't hesitate to [contact us](/contact).
